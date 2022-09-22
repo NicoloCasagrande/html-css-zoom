@@ -19,7 +19,6 @@ body{
 
 .row{
     display: flex;
-    width: 100%;
     align-items: center;
 }
 
@@ -82,6 +81,12 @@ header{
     border-radius: 5px;
 }
 
+.casella:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
 /*--------------------
  MAIN
  -------------------*/
@@ -127,6 +132,7 @@ footer{
 }
 
 .foot-row{
+    justify-content: space-between;
     width: 100%;
     height: 100%;
 }
