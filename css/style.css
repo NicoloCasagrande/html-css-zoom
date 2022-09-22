@@ -1,0 +1,79 @@
+/*--------------------
+ RESET 
+ -------------------*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------
+ COMMON
+ -------------------*/
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.persona{
+    position: relative;
+    width: calc(100%/7 - 10px);
+    margin: 5px;
+}
+
+.persona img{
+    width: 100%;
+}
+
+.info-persona{
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+}
+
+
+/*--------------------
+ HEADER
+ -------------------*/
+header{
+    height: 30px;
+    background-color: blanchedalmond;
+}
+
+.head-row{
+    justify-content: flex-end;
+}
+
+.head-row > *{
+    margin: 0 5px
+}
+
+/*--------------------
+ MAIN
+ -------------------*/
+
+main{
+    width: calc(80%-20px);
+    margin: auto;
+    background-color: blueviolet;
+    height: calc(100% - 120px);
+    overflow-y: auto;
+}
+
+/*--------------------
+ FOOTER
+ -------------------*/
+
+footer{
+    height: 90px;
+    background-color: aquamarine;
+}
+
