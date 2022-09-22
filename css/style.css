@@ -168,5 +168,6 @@ footer{
 
 .end-call:hover{
     background-color: whitesmoke;
+    cursor: pointer;
 }
 
