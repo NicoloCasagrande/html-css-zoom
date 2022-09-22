@@ -112,8 +112,12 @@ footer{
     margin-bottom: 5px;
 }
 
-.impostazioni > i{
-    padding-left: 3px;
+.impostazioni > i, .menu > i{
+    padding: 3px;
+    border-radius: 5px;
+}
+.impostazioni > i:hover, .menu > i:hover{
+    background-color: #4a4a4a;
 }
 
 .foot-row{
