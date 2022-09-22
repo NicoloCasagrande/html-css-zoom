@@ -20,8 +20,7 @@ body{
 .row{
     display: flex;
     width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
 }
 
 .persona{
@@ -85,8 +84,13 @@ main{
     width: calc(80%-20px);
     margin: auto;
     background-color: black;
-    height: calc(100% - 120px);
+    height: calc(100% - 110px);
     overflow-y: auto;
+}
+
+.principal-row{
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /*--------------------
@@ -94,7 +98,49 @@ main{
  -------------------*/
 
 footer{
-    height: 90px;
+    height: 80px;
     background-color: #222222;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+.btn i{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.impostazioni > i{
+    padding-left: 3px;
+}
+
+.foot-row{
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.end-call{
+    height: 100%;
+    background-color: #4a4a4a;
+    color: red;
+}
+
+.verde{
+    color: green;
+}
+
+.menu .btn{
+    margin: 0 5px 0 5px;
+}
+
+.btn:hover{
+    background-color: #4a4a4a;
 }
 
