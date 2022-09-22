@@ -40,7 +40,7 @@ body{
     background-color: rgba(0,0,0,0.4);
     color: white;
     padding: 3px;
-    font-size: 14px;
+    font-size: clamp(6px, 14px, 16px);
 }
 
 /*--------------------
@@ -50,6 +50,7 @@ body{
 body{
     font-family: 'Roboto', sans-serif;
  }
+
 
 /*--------------------
  HEADER
