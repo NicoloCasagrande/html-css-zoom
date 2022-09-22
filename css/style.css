@@ -146,6 +146,8 @@ footer{
     position: relative;
     background-color: #4a4a4a;
     color: red;
+    font-weight: bold;
+    font-size: 14px;
     height: 100%;
     padding: 8px;
     text-align: center;
