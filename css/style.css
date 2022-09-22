@@ -29,6 +29,10 @@ body{
     margin: 5px;
 }
 
+.persona:hover .info-persona{
+    color: blue;
+}
+
 .persona img{
     width: 100%;
 }
