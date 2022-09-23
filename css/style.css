@@ -22,31 +22,6 @@ body{
     align-items: center;
 }
 
-.persona{
-    position: relative;
-    width: calc(100%/7 - 10px);
-    margin: 5px;
-}
-
-.persona:hover .info-persona{
-    color: blueviolet;
-    cursor: pointer;
-}
-
-.persona img{
-    width: 100%;
-}
-
-.info-persona{
-    position: absolute;
-    bottom: 8%;
-    left: 0;
-    background-color: rgba(0,0,0,0.4);
-    color: white;
-    padding: 3px;
-    font-size: clamp(6px, 14px, 16px);
-}
-
 /*--------------------
  TIPOGRAPHY
  -------------------*/
@@ -104,6 +79,31 @@ main{
     justify-content: center;
 }
 
+.persona{
+    position: relative;
+    width: calc(100%/7 - 10px);
+    margin: 5px;
+}
+
+.persona:hover .info-persona{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.persona img{
+    width: 100%;
+}
+
+.info-persona{
+    position: absolute;
+    bottom: 8%;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    padding: 3px;
+    font-size: clamp(6px, 14px, 16px);
+}
+
 /*--------------------
  FOOTER
  -------------------*/
@@ -149,9 +149,9 @@ footer{
     font-weight: bold;
     font-size: 14px;
     height: 100%;
+    width: 150px;
     padding: 8px;
     text-align: center;
-    width: 150px;
     padding-top: 32px;
 }
 
